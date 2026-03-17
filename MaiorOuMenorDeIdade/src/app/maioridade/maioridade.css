@@ -7,26 +7,39 @@
     background-color: rgb(42, 112, 158);
     color: beige;
 
-    /*  Fonte e cores */ 
+    /*  Fonte e cores */
     font-family: 'Inter', 'Segoe UI', sans-serif;
     color: var(--text);
 }
-h1, p{
+
+h1,
+p {
     color: beige;
 }
-input{
+
+input {
     border-radius: 5px;
     height: 30px;
     width: 120px;
     color: rgb(65, 65, 65);
     background-color: beige;
+    font-family: Arial, sans-serif;
 }
-button{
+
+button {
     background-color: beige;
     height: 35px;
     color: rgb(0, 0, 0);
 }
-button:hover{
+
+button:hover {
     color: white;
-    background-color: rgb(22, 55, 77);;
+    background-color: rgb(22, 55, 77);
+    ;
+}
+
+.container {
+    background-color: rgb(31, 31, 31);
+    padding: 30px;
+    border-radius: 30px;
 }
