@@ -1,0 +1,11 @@
+<div class="container">
+    <h1>Maior Ou Menor De Idade</h1>
+    <p>Digite a sua idade:</p>
+    <input type="number" [(ngModel)]="idade" placeholder="Ex: 34">
+    <button (click)="MaiorMenor()">Enviar</button>
+
+    <!--  *ngIf="idade == 0 || idade == ''" -->
+    <div>
+    <p>Situação: <strong>{{ resultado }}</strong></p>
+    </div>
+</div>
