@@ -1,13 +1,20 @@
 # MaiorOuMenorDeIdade
 Passos no terminal: 
 
-npx -p @angular/cli ng new MaiorOuMenorDeIdade --style=css --routing=true --ssr=false
+npx -p @angular/cli ng new MaiorOuMenorDeIdade --style=css --routing=true 
+
+--ssr=false
+
 cd .\MaiorOuMenorDeIdade\
+
 npx ng serve
+
 npx ng g c maioridade
 
-Local: 
+
+Aparecerá Local: 
 http://localhost:****/
 
-Ajuda:
+
+Para ajuda:
 npx ng --help
